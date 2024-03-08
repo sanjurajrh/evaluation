@@ -1,0 +1,12 @@
+What is your name?  | Sasi Kumar S
+What is the name of the module you have attended?  | CL260
+_______ maintain maps of the cluster state.  | ceph mon
+_______ store data and handle data replication, recovery and rebalancing  | ceph
+_______ keep track of runtime metrics and expose cluster information through a browser-based dashboard and REST API  | ceph manager
+_______ store metadata used by CephFS to allow efficient POSIX command execution by clients.  | ceph mds
+What is the object storage backend known as _______?  | RGW
+What are the building blocks of a Ceph Storage cluster?  | osds, ceph mon, ceph mgr, ceph mds
+Ceph uses ________ algorithm to efficiently compute information about object location, instead of having to depend on a central lookup table.  | PAXIS
+Each OSD has its own _______  | journald log
+CRUSH assigns every object to a single hash bucket, known as a _______.  | container
+_____ represents the global namespace for all objects and buckets in the multisite replication space.  | 

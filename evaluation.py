@@ -20,11 +20,11 @@ def main():
     ]
 
     try:
-        with open("user_answers.txt", "w") as file:
+        with open("user_answers8.txt", "w") as file:
             for question in predefined_questions:
                 answer = ask_question(question)
                 file.write(f"{question} | {answer}\n")
-        print("User answers recorded in 'user_answers.txt'")
+        print("User answers recorded in 'user_answers8.txt'")
     except Exception as e:
         print(f"An error occurred: {e}")
 
