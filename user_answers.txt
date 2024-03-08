@@ -1,0 +1,12 @@
+What is your name?  | Soumyashree Mohanty
+What is the name of the module you have attended?  | CL260
+_______ maintain maps of the cluster state.  | mgr
+_______ store data and handle data replication, recovery and rebalancing  | osd
+_______ keep track of runtime metrics and expose cluster information through a browser-based dashboard and REST API  | prometheus/exporter
+_______ store metadata used by CephFS to allow efficient POSIX command execution by clients.  | mds
+What is the object storage backend known as _______?  | ceph/rados
+What are the building blocks of a Ceph Storage cluster?  | mon,mds,mds,mgr,cephfs,rgw,rbd,rados
+Ceph uses ________ algorithm to efficiently compute information about object location, instead of having to depend on a central lookup table.  | CRUSH
+Each OSD has its own _______  | journal
+CRUSH assigns every object to a single hash bucket, known as a _______.  | PG/chunk
+_____ represents the global namespace for all objects and buckets in the multisite replication space.  | realm
